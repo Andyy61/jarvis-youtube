@@ -1,0 +1,6 @@
+*MUSIK*YOUTUBE*|*YOUTUBE*MUSIK*==say "Welches Lied willst du hören?"
+>(*)==song="(1)" && jv_pg_yp_play_song "$song" && say "Wird abgespielt"
+*YOUTUBE*VIDEO*|*VIDEO*YOUTUBE*==say "Welches Video willst du sehen?"
+>(*)==video="(1)" && jv_pg_yp_play_video "$video" && say "La vidéo $video va bientot se lancer."
+*AUS*VIDEO*|*VIDEO*AUS*==jv_pg_yp_stop && say "Video ausgeschaltet."
+*AUS*MUSIK*|*MUSIQUE*AUS*==jv_pg_yp_stop && say "Musik ausgeschaltet."
